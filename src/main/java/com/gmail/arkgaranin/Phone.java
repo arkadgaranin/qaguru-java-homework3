@@ -40,7 +40,7 @@ public class Phone {
 
     String namePhone;
 
-    if (price <= 2000 & type == 'b') {
+    if (price <= 2000 && type == 'b') {
       namePhone = "nokia6310";
       System.out.println("По выбранным параметрам Ваш телефон соответствует: " + namePhone + "\n");
     }
