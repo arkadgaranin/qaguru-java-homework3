@@ -44,7 +44,7 @@ public class Phone {
       namePhone = "nokia6310";
       System.out.println("По выбранным параметрам Ваш телефон соответствует: " + namePhone + "\n");
     }
-    else if (price > 2000 & type == 's') {
+    else if (price > 2000 && type == 's') {
       namePhone = "iphone11";
       System.out.println("По выбранным параметрам Ваш телефон соответствует: " + namePhone + "\n");
     }
